@@ -1,0 +1,51 @@
+.row-header {
+    background-image: url('../../../assets/images/Asset 14.png') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.layout-dashboard .header-control {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.layout-dashboard .header-control .ant-btn-link {
+    height: auto;
+    padding: 0 7px;
+    margin: 0;
+    box-shadow: none;
+    color: #8c8c8c;
+    line-height: normal;
+}
+
+.ant-btn-link {
+    transition: 0.5s ease;
+}
+
+.ant-btn-link:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+.layout-dashboard .header-control svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.layout-dashboard .header-control svg path {
+    fill: #E6E5D1;
+}
+
+.layout-dashboard .header-control svg {
+    vertical-align: middle;
+}

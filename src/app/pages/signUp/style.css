@@ -1,0 +1,137 @@
+.sign-up-header {
+    height: 60%;
+    box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
+    background-size: cover;
+    text-align: center;
+    background-image: url("../../../assets/images/sign-up-background.jpg");
+}
+
+.sign-up-header .content {
+    max-width: 480px;
+    margin: auto;
+}
+
+.sign-up-header * {
+    color: #FFFCF2;
+}
+
+.sign-up-header .content h1 {
+    font-size: 56px;
+    color: #D6E8EE;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.text-lg {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.card-signup .sign-up-gateways .ant-btn {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 60px;
+    width: 70px;
+    box-shadow: none;
+    border-radius: 6px;
+}
+
+.card-signup {
+    background-color: #02457A;
+    width: 25%;
+    margin: 0 auto;
+    box-shadow: 0 20px 27px rgb(0 0 0/40%) !important;
+    border-radius: 12px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-signup h5 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F16744;
+    margin: 0;
+}
+
+.header-solid .ant-card-head {
+    border-bottom: 0;
+}
+.card-signup .sign-up-gateways .ant-btn img {
+    width: 20px;
+}
+.sign-up-gateways {
+    text-align: center;
+}
+
+.ant-card-head-title {
+    margin-top: 16px;
+}
+
+.ant-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.sign-up-form {
+    width: 80%;
+}
+
+.ant-input {
+    border-radius: 6px;
+}
+.ant-input {
+    font-weight: 600;
+    color: #8c8c8c;
+}
+.ant-input {
+    height: 40px;
+    border: 1px solid #d9d9d9;
+}
+
+.ant-btn,
+.ant-radio-group .ant-radio-button-wrapper {
+    font-weight: 600;
+    font-size: 12px;
+    height: 40px;
+    padding: 0 15px;
+    line-height: 40px;
+}
+
+.ant-btn {
+    box-shadow: 0 2px 4px rgb(0 0 0 / 40%);
+    border-radius: 6px;
+}
+
+.signUp-btn {
+    padding: 10px 20px !important;
+    background-color: #F16744 !important;
+    color: #fff !important;
+    border: none !important;
+    outline: none !important;
+    transform: skewX(-20deg) !important;
+    transition: transform 0.3s ease !important;
+    line-height: 18px !important;
+}
+
+.signUp-btn:hover {
+    transform: skewX(-20deg) scale(1.1) !important;
+}
+
+.signUp-btn:active {
+    transform: skewX(-20deg) scale(0.9) !important;
+}
+
+.signIn-question {
+    color: #D6E8EE;
+}
+
+.signIn-link {
+    color: #F16744;
+}

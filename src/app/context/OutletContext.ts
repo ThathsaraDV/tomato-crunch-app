@@ -1,0 +1,1 @@
+export type OutletContext = { closeMenu: () => void, isMenuVisible: boolean };
