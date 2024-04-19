@@ -11,7 +11,7 @@ function AnswerBtn(props: AnswerBtnI) {
 
     return (
         <Col>
-            <div className="btn-img-div" onClick={() => props.onclick(0)}>
+            <div className="btn-img-div" onClick={() => props.onclick(props.value)}>
                 <Title level={1} className="btn-text">{props.value}</Title>
             </div>
         </Col>
